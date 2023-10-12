@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Frontend Mentor | Advice generator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        position: absolute;
+        font-size: 11px;
+        bottom: 0;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="advice-card">
+      <h2>Advice #<span id="advice-number">117</span></h2>
+      <p id="quote">
+        "One of the single best things about being an adult, is being able to
+        buy as much LEGO as you want."
+      </p>
+      <picture>
+        <source
+          media="(min-width:768px)"
+          srcset="images/pattern-divider-desktop.svg"
+        />
+        <img src="images/pattern-divider-mobile.svg" alt="" />
+      </picture>
+      <div class="img-container" id="dice-btn">
+        <img src="images/icon-dice.svg" alt="" />
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ahmed Shehab</a>.
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
